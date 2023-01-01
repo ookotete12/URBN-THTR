@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URBN THTR- Welcome</title>
+    <link rel="stylesheet"  href='/style/style.css'/>
+    <script src="https://kit.fontawesome.com/5c96ea65b6.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body class="log">
+    
+    <div class="info">
+        <h1 class= "logo">URBN THTR</h1>
+        <!-- {% if message %}
+        <div class="alert alert-danger">
+            {{ message }}
+        </div>
+        {% endif %} -->
+        <form method="POST" action="/login" id="register" >
+            <label for="email">Drexel Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" required>
+            <br />
+            <input type="submit" value="Login" required> 
+            <a href="Register.html">Sign up</a>
+            
+       </form>
+    </div>
+    
+</body>
+</html>

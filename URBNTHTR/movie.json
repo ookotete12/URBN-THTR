@@ -1,0 +1,34 @@
+{
+    "movies": [
+        {
+            "id": "m1",
+            "description": "Spiderman: No Way Home",
+            "image":"spiderman.jpeg"
+        },
+        {
+            "id": "m2",
+            "description": "Scream",
+            "image":"scream.jpeg"
+        },
+        {
+            "id": "m3",
+            "description": "Sing 2",
+            "image":"sing2.jpeg"
+        },
+        {
+            "id": "m4",
+            "description": "The Batman",
+            "image":"batman.jpeg"
+        },
+        {
+            "id": "m5",
+            "description": "Marry Me",
+            "image":"marryme.jpeg"
+        },
+        {
+            "id": "m6",
+            "description": "Uncharted",
+            "image":"uncharted.jpeg"
+        }
+    ]
+}

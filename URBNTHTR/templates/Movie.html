@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URBN THTR- Movie Search</title>
+    <link rel="stylesheet" type="text/css" href='/style/style.css'/>
+    <script src="https://kit.fontawesome.com/5c96ea65b6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+    <header>
+        <div class="navigator">
+            
+            <div class="dropdown">
+                <button class="menuitem"><i class="fa-solid fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="home.html">Home</a>
+                </div>
+                
+            </div>
+            
+            <h1 class="titl"><a href="home.html">URBN THTR</a> </h1>
+            <div class='dropdownprofile'>
+                <a href='profile.html' class="profileitem"><img src='/img/profilepic.JPG' alt="Avatar" class="avatar"></a>
+                <div class="dropdown-content2">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+    
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="/img/longbatman.jpeg" style="width:100%">
+          <!-- <div class="text">Book Tickets</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="/img/longscream.jpeg" style="width:100%">
+          <!-- <div class="text">Book Tickets</div> -->
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="/img/longscream.jpeg" style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+       <div class="movielist">
+           <h1 class="movie-list-title">Now Playing</h1>
+           <div class="movie-wrapper">
+               <div class="movie-list">
+                   <div class="movie-list-item">
+                       <img class="movie-list-item-img" src="/img/batman.jpeg">
+                       <span class="movie-list-item-title">The Batman</span>
+                       <p class="movie-list-item-desc">
+                        Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues. As the evidence begins to lead closer to home and the scale of the perpetrator's plans become clear, he must forge new relationships, unmask the culprit and bring justice to the abuse of power and corruption that has long plagued the metropolis.
+                       </p>
+                       <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                   </div>
+                   <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/spiderman.jpeg">
+                        <span class="movie-list-item-title">Spider-Man: No Way Home</span>
+                        <p class="movie-list-item-desc">
+                            With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/encanto.jpeg">
+                        <span class="movie-list-item-title">Encanto</span>
+                        <p class="movie-list-item-desc">
+                            The Madrigals are an extraordinary family who live hidden in the mountains of Colombia in a charmed place called the Encanto. The magic of the Encanto has blessed every child in the family with a unique gift -- every child except Mirabel. However, she soon may be the Madrigals last hope when she dis…
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/marryme.jpeg">
+                        <span class="movie-list-item-title">Marry Me</span>
+                        <p class="movie-list-item-desc">
+                            Pop superstar Kat Valdez is about to get married before an audience of her loyal fans. However, seconds before the ceremony, she learns about her fiance's cheating ways and has a meltdown on stage. In a moment of inspired insanity, Kat locks eyes with a total stranger in the crowd and marries him on…
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/sing2.jpeg">
+                        <span class="movie-list-item-title">Sing 2</span>
+                        <p class="movie-list-item-desc">
+                        Can-do koala Buster Moon and his all-star cast of animal performers prepare to launch a dazzling stage extravaganza in the glittering entertainment capital of the world. There's just one hitch -- he has to find and persuade the world's most reclusive rock star to join them. What begins as Buster's dream...
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    
+               </div>
+
+               <h1 class="movie-list-title">Coming Soon</h1>
+           <div class="movie-wrapper">
+               <div class="movie-list">
+                   <div class="movie-list-item">
+                       <img class="movie-list-item-img" src="/img/uncharted.jpeg">
+                       <span class="movie-list-item-title">Uncharted</span>
+                       <p class="movie-list-item-desc">
+                        Treasure hunter Victor "Sully" Sullivan recruits street-smart Nathan Drake to help him recover a 500-year-old lost fortune amassed by explorer Ferdinand Magellan. What starts out as a heist soon becomes a globe-trotting, white-knuckle race to reach the prize before the ruthless Santiago Moncada can …
+                       </p>
+                       <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                   </div>
+                   <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/lostcity.jpeg">
+                        <span class="movie-list-item-title">The Lost City</span>
+                        <p class="movie-list-item-desc">
+                            WReclusive author Loretta Sage writes about exotic places in her popular adventure novels that feature a handsome cover model named Alan. While on tour promoting her new book with Alan, Loretta gets kidnapped by an eccentric billionaire who hopes she can lead him to an ancient city's lost treasure fr…
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/sonic2.jpeg">
+                        <span class="movie-list-item-title">Sonic The Hedgehog 2</span>
+                        <p class="movie-list-item-desc">
+                            After settling in Green Hills, Sonic is eager to prove that he has what it takes to be a true hero. His test comes when Dr. Robotnik returns with a new partner, Knuckles, in search of a mystical emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and tog…
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/fatherstu.jpeg">
+                        <span class="movie-list-item-title">Father Stu</span>
+                        <p class="movie-list-item-desc">
+                            When an injury ends his amateur boxing career, Stuart Long moves to Los Angeles to find money and fame. While scraping by as a supermarket clerk, he meets Carmen, a Sunday school teacher who seems immune to his bad-boy charm. Determined to win her over, the longtime agnostic starts going to church t… 
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="/img/scream.jpeg">
+                        <span class="movie-list-item-title">Scream</span>
+                        <p class="movie-list-item-desc">
+                            Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, Calif., a new killer dons the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town's deadly past.
+                        </p>
+                        <button class="movie-list-item-btn" onclick="location.href='ticket.html'">GET TICKET</button>
+                    </div>
+               </div>
+           </div>
+       </div>
+        <!-- <div>
+            <table id='tbl'>
+            
+                <tbody id='tbody'>
+
+                </tbody>
+            </table>
+        </div> -->
+        <script src="/movie.js"></script>
+</body>
+</html>
